@@ -9,8 +9,8 @@
 .bar{
     height: 10vh;
     width: 100%;
-    background-color: #fff;
-    /* background-color: rgb(228, 228, 228); */
+    /* background-color: #fff;
+    background-color: rgb(228, 228, 228); */
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -134,7 +134,7 @@ padding: 20px;
     /* background-color: #404040; */
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 0px;
     overflow: hidden;
    }
@@ -158,6 +158,7 @@ padding: 20px;
     width: 90%;
     /* background-color: green; */
     text-wrap: wrap;
+    margin-top: 40px;
    }
 
    .left-side-main h1{
@@ -173,7 +174,7 @@ padding: 20px;
 }
 
 .form-group {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .form-group input{
@@ -383,12 +384,14 @@ label {
         font-size: 48px;
         font-weight: 200;
         color: #000000;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     .table1 .table1-text2 p{
         font-size: 20px;
         font-weight: 200;
         color: #000000;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     .table1{
@@ -458,6 +461,7 @@ label {
         font-weight: lighter;
         text-align: left;
         color: #000000;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
 .ttable2{
@@ -495,3 +499,161 @@ label {
         font-size: 16px;
         font-weight: 600;
     }
+
+    .fourth-container{
+        height: 30vh;
+        width: 100%;
+        background-color: #f1ece5;
+    }
+
+    .fourth-content{
+        width: 80%;
+        height: 100%;
+        /* background-color: #f1ece5; */
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+      .tttable1{
+        width: 35%;
+        height: fit-content;
+        /* background-color: #0c66c2; */
+        margin: auto 0px;
+        /* background-color: red; */
+        text-wrap: wrap;
+    }
+
+    .tttable2{
+        width: 50%;
+        height: fit-content;
+        /* background-color: #0c66c2; */
+        margin: auto;
+        /* background-color: red; */
+    }
+
+    .tttable1 h2{
+        font-size: 48px;
+        font-weight: lighter;
+        text-align: left;
+        color: #b2411f;
+        display: block;
+    }
+
+  .tttable2 button{
+    border: 2px solid #0c66c2;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: none;
+
+
+  }  
+
+  .tttable2 button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 600;
+    color: #004182;
+
+  }
+
+  .tttable2 button:hover{
+    background-color: rgba(62, 141, 221, 0.344)
+  }
+
+
+ 
+
+.fifth-container{
+    /* background-color: #bc141449; */
+    height: 50vh;
+    width: 100%;
+}
+
+.fifth-content{
+    width: 80%;
+    height: 90%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.fifth-content .ttab{
+    width: 40%;
+    height: 80%;
+    /* background-color: #0c66c2; */
+    margin-top: 45px;
+}
+
+.fifth-content .ttab2{
+    width: 50%;
+    height: 80%;
+    margin: auto 0px;
+    /* background-color: #793aac; */
+    
+}
+
+
+.ttab h2{
+    font-size: 48px;
+    font-weight: lighter;
+    text-align: left;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ttab2{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.ttab2-butn{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+.fifth-butn{
+    align-items: center;
+}
+
+.fifth-butn ul li{
+    height: fit-content;
+    width: max-content;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid #0000006f;
+    float: left;
+    list-style-type: none;
+    
+}
+
+.fifth-butn ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #4b4b4b;
+    font-family: 600;
+
+}
+
+.ttab2 h2{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.ttab p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #000000;
+    margin: 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
