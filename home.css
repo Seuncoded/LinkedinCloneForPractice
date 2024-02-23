@@ -259,11 +259,61 @@ justify-content: space-between;
     background-color: white;
     width: 100%;
 }
+
+.top4con{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.top4con span{
+    background-color: white;
+}
+
+.top4con span h3{
+    font-size: 12px;
+    font-weight: 600;
+    color: #999999;
+    background-color: white;
+}
+
+.top4con span a{
+    font-size: 12px;
+    font-weight: 600;
+    color: #515151;
+    background-color: white;
+    text-decoration: none;
+}
+
 .topleft5{
     height: 11%;
     background-color: white;
     width: 100%;
     border-radius: 0px 0px 10px 10px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topleft5 span a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #191919;
+    background-color: white;
+}
+
+.topleft5 #ced{
+    width: 10%;
+}
+
+#dec{
+    width: 70%;
+}
+
+.topleft5 span{
+    background-color: white;
+   
 }
 
 
