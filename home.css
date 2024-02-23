@@ -20,8 +20,7 @@
 
 .container{ 
 width: 80%;
-/* background-color: brown; */
-
+background-color: white;
 margin: auto;
 height: 100%;
 display: flex;
@@ -30,6 +29,7 @@ justify-content: space-between;
 
 .searchlogo img{
     height: 50px;
+    background-color: white;
 }
 
 .searchlogo input{
@@ -37,6 +37,8 @@ justify-content: space-between;
     border: none;
     outline: none;
     background: none;
+    background-color: #edf3f8;
+    
 }
 .search{
     background-color: #edf3f8;
@@ -44,9 +46,13 @@ justify-content: space-between;
     position: relative;
 }
 
+.search i{
+    background-color: #edf3f8;
+}
+
 .input_dropdown{
     position: absolute;
-    background-color: rgb(242, 242, 242);
+    background-color: #edf3f8;
     width: 310px;
     display: none;
     left: 0;
@@ -63,6 +69,7 @@ justify-content: space-between;
     font-size: 16px;
     font-weight: 400;
     color: #000000;
+    background-color: #f4f2ee;
 }
 
 .input_dropdown p:hover{
@@ -71,6 +78,7 @@ justify-content: space-between;
 
 .input_dropdown #history{
     font-size: 12px;
+    background-color: #f4f2ee;
 }
 
 .input_dropdown p{
@@ -84,6 +92,7 @@ justify-content: space-between;
 .search span{
     font-size: 20px;
     color: grey;
+    background-color: white;
 }
 .searchlogo{
     align-items: center;
@@ -92,6 +101,7 @@ justify-content: space-between;
     height: 100%;
     display: flex;
     justify-content: left;
+    background-color: white;
 }
 
 .icon{
@@ -100,6 +110,7 @@ justify-content: space-between;
     height: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .iconlist{
@@ -109,17 +120,20 @@ justify-content: space-between;
     height: fit-content;
     margin-top: 10px;
     /* background-color: red; */
+    background-color: white;
 }
 
 .iconlist p{
     font-size: 12px;
     font-weight: 400;
+    background-color: white;
 }
 
 .icon1{
     width: 68%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
     /* background-color: blue; */
 }
 
@@ -128,10 +142,12 @@ justify-content: space-between;
     width: 30%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .icon2 > .iconlist{
     width: 95px;
+    background-color: white;
 }
 
 .iconlist .ads{
@@ -139,8 +155,13 @@ justify-content: space-between;
     font-weight: 400;
 }
 
+.iconlist span{
+    background-color: white;
+}
+
 .iconlist .ads a{
     color: #915906;
+    background-color: white;
 }
 
 .iconlist a:hover{
@@ -151,6 +172,11 @@ justify-content: space-between;
 .iconlist a{
     text-decoration: none;
     color: #666666;
+    background-color: white;
+}
+
+.iconlist i{
+    background-color: white;
 }
 
 /* end of navbar */
@@ -205,14 +231,118 @@ justify-content: space-between;
 .topleft{
     height: 65%;
     width: 100%;
-    background-color: blue;
+    background-color: lightgrey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.topleft1{
+    height: 15%;
+    background-color: #a0b4b7;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.topleft2{
+    height: 39%;
+    background-color: white;
+    width: 100%;
+}
+.topleft3{
+    height: 17%;
+    background-color: white;
+    width: 100%;
+}
+.topleft4{
+    height: 17%;
+    background-color: white;
+    width: 100%;
+}
+.topleft5{
+    height: 11%;
+    background-color: white;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+
 
 .downleft{
     height: 30%;
     width: 100%;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: lightgrey;
 }
+
+.downleft1{
+    height: 69%;
+    width: 99.9%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid lightgrey;
+}
+
+.left1 , .left2 , .left3{
+    height: 33.33%;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+.left2{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.left2 span{
+    background: none;
+}
+
+.downleft a:hover{
+    text-decoration: underline;
+}
+
+
+.downleft1 a{
+    text-decoration: none;
+    background: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0c66c2;
+}
+
+.downleft2{
+    height: 30%;
+    width: 99.9%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid lightgrey;
+    
+}
+
+.downleft2  a{
+    text-decoration: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #767676;
+    
+    
+   
+}
+
 
 .firstmiddle{
     height: 50vh;
@@ -224,13 +354,193 @@ justify-content: space-between;
 .topright{
     height: 47%;
     width: 100%;
-    background-color: blue;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
 }
 
-.rightdown{
-    height: 47%;
+.topright1{
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topright1 span h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    background-color: white;
+}
+
+.topright1 span{
+    background-color: white;
+}
+
+.topright1 div{
+    background-color: white;
+}
+
+.topright2{
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tright1 , .tright2 , .tright3{
+    height: 32%;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.tright1{
+    display: flex;
+    background-color: white;
+}
+.tright2{
+    display: flex;
+    background-color: white;
+}
+.tright3{
+    display: flex;
+    background-color: white;
+}
+
+.trightimg img{
+    height: 50px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.trightimg{
+    background-color: white;
+    height: 100%;
+}
+
+.trightxt{
+    height: 100%;
+    background-color: white;
+    padding: 2px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: justify;
+
+    
+}
+.trightxt p span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    background-color: white;
+
+}
+.trightxt p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    background-color: white;
+
+}
+
+.trightxt button span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    background: none;
+
+}
+
+.trightxt i{
+    background: none;
+}
+
+.trightxt button{
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid lightslategray;
+    width: 100px;
+    background-color: white;
+}
+
+.trightxt button:hover{
+    background-color: lightgrey;
+}
+
+.topright3{
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    margin: auto;
+}
+
+.topright3 span{
+    background-color: white;
+}
+
+.topright3 span h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    background-color: white;
+}
+
+
+.rightdown{
+    height: 48%;
+    width: 100%;
+    background-color: #f4f2ee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.imgrd{
+    width: 100%;
+    height: 70%;
+
+}
+
+.imgrd img{
+    height: 100%;
+}
+
+.texxxtrd{
+    width: 80%;
+    height: 30%;
+    background-color: #f4f2ee;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.texxxtrd span{
+    background: none;
+    padding: 5px 5px;
+}
+
+.texxxtrd span a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #777675;
+    background: none;
+}
+
+
+.rightdown img{
+width: 100%;
 }
 
 .middletext{
@@ -352,6 +662,7 @@ justify-content: space-between;
 }
 
 
+
 .ls .sep{
     width: 20px;
     height: 100%;
@@ -361,12 +672,14 @@ justify-content: space-between;
 .ls .ser{
     width: 75%;
     height: 100%;
+    background-color: white;
 }
 
 .ls{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
 }
 
 .mdcon1 , .mdcon2 , .mdcon3{
@@ -418,19 +731,23 @@ justify-content: space-between;
 .frthmid{
     height: 80vh;
     width: 100%;
-    background-color: rgb(67, 0, 0);
-    border: 1px solid lightgray;
+    /* background-color: rgb(67, 0, 0); */
+    background-color: #f4f2ee;
+    border: 2px solid lightgrey;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-top: 15px;
+    border-radius: 11px;
 }
 
 .frt1{
     height: 11%;
     width: 100%;
-   background-color: white;
+    background-color: white;
     display: flex;
     justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
 }
 .frt2{
     height: 10%;
@@ -499,7 +816,7 @@ justify-content: space-between;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
-    padding: 6px 0px;
+    padding: 3px 0px;
     color: #787b7d;
 }
 
@@ -517,51 +834,69 @@ justify-content: space-between;
     margin: auto;
     padding: auto;
     /* background-color: red; */
+    background-color: white;
 }
 
 .smallfrt5 p{
    text-align: center;
    align-items: center;
    padding-top: 5px;
+   background-color: white;
 }
 
-.frt5 .smallfrt5:hover{
+/* .frt5 .smallfrt5:hover{
     background-color: lightgrey;
     transition: 0.5s;
-}
+} */
 
 .frt6{
     height: 7%;
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #aeaeae;
+    /* background-color: red; */
+    border-radius: 0px 0px 10px 10px;
 }
 
 .frt6 p{
     font-size: 12px;
     font-weight: 400;
     padding: 10px 0px;
+    background-color: #aeaeae;
+    border-radius: 0px 0px 10px 10px;
 
 }
 
 .frt3 img{
-    height: fit-content;
-    width: fit-content;
+    height: 100%;
+    width: 100%;
 }
 
 .frt1 .logofed{
     width: 28%;
     display: flex;
     justify-content: space-around;
-    margin: 0px 10px;
+    margin: 1px 10px;
+    background-color: white;
 }
 
 .frt1 .feedmenu{
     width: 7%;
+    background-color: white;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.frt2 span{
+    background-color: white;
+}
+
+.feedmenu i{
+    background-color: white;
 }
 
 .logofed img{
     height: 50px;
     margin: 7px auto;
+    background-color: white;
 
 }
 
@@ -575,30 +910,36 @@ justify-content: space-between;
 .sideimg{
     width: 40%;
     height: 100%;
+    background-color: white;
 }
 
 .sidelogofeed{
     width: 60%;
     height: 100%;
+    background-color: white;
 }
 
 .sidelogofeed span{
     padding: 0px 0px;
+    background-color: white;
 }
 
 .sidelogofeed #lh{
     font-size: 14px;
     font-weight: 600;
     color: #191919;
+    background-color: white;
 }
 .sidelogofeed #fol{
     font-size: 12px;
     font-weight: 400;
-    color: #6b6b6b
+    color: #6b6b6b;
+    background-color: white;
 }
 .sidelogofeed #prt{
     font-size: 12px;
     font-weight: 400;
     color: #6b6b6b;
+    background-color: white;
 }
 
