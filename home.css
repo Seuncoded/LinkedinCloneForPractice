@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: #333; */
+    height: 60px;
+    z-index: 1000;
+}
+
+.container{ 
+width: 80%;
+/* background-color: brown; */
+margin: auto;
+height: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.searchlogo img{
+    height: 50px;
+}
+
+.searchlogo input{
+    padding: 10px 70px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.search{
+    background-color: #edf3f8;
+    align-items: center;
+    position: relative;
+}
+
+.input_dropdown{
+    position: absolute;
+    background-color: rgb(242, 242, 242);
+    width: 310px;
+    display: none;
+    left: 0;
+    top: 30px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+.search:focus-within .input_dropdown{
+    display: initial;
+}
+
+.input_dropdown .text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.input_dropdown p:hover{
+    background-color: grey;
+}
+
+.input_dropdown #history{
+    font-size: 12px;
+}
+
+.input_dropdown p{
+    padding: 5px 0px;
+}
+
+.search:focus-within{
+    text-align: left;
+}
+
+.search span{
+    font-size: 20px;
+    color: grey;
+}
+.searchlogo{
+    align-items: center;
+    /* background-color: green; */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.icon{
+    /* background-color: blueviolet; */
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconlist{
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: fit-content;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+
+.iconlist p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.icon1{
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.icon2{
+    /* background-color: chocolate; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon2 > .iconlist{
+    width: 95px;
+}
+
+.iconlist .ads{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.iconlist .ads a{
+    color: #915906;
+}
+
+.iconlist a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.iconlist a{
+    text-decoration: none;
+    color: #666666;
+}
+
+/* end of navbar */
