@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,39 +18,40 @@
     z-index: 1;
 }
 
-.container{ 
-width: 80%;
-background-color: white;
-margin: auto;
-height: 100%;
-display: flex;
-justify-content: space-between;
+.container {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.searchlogo img{
+.searchlogo img {
     height: 50px;
     background-color: white;
 }
 
-.searchlogo input{
+.searchlogo input {
     padding: 10px 70px;
     border: none;
     outline: none;
     background: none;
     background-color: #edf3f8;
-    
+
 }
-.search{
+
+.search {
     background-color: #edf3f8;
     align-items: center;
     position: relative;
 }
 
-.search i{
+.search i {
     background-color: #edf3f8;
 }
 
-.input_dropdown{
+.input_dropdown {
     position: absolute;
     background-color: #edf3f8;
     width: 310px;
@@ -58,43 +59,53 @@ justify-content: space-between;
     left: 0;
     top: 30px;
     border-radius: 5px;
-    border: 1px solid whitesmoke;
+    margin-top: 10px;
+    border: 1px solid lightslategrey;
 }
 
-.search:focus-within .input_dropdown{
+.search:focus-within .input_dropdown {
     display: initial;
 }
 
-.input_dropdown .text{
+.input_dropdown .text {
     font-size: 16px;
     font-weight: 400;
     color: #000000;
-    background-color: #f4f2ee;
+   
 }
 
-.input_dropdown p:hover{
-    background-color: grey;
+.input_dropdown p:hover {
+    background-color: lightgrey;
+    transition: .6s;
 }
 
-.input_dropdown #history{
+.input_dropdown #history {
     font-size: 12px;
-    background-color: #f4f2ee;
 }
 
-.input_dropdown p{
+.input_dropdown p {
     padding: 5px 0px;
+    background: none;
 }
 
-.search:focus-within{
+.search:focus-within {
     text-align: left;
 }
 
-.search span{
+
+.search span {
     font-size: 20px;
     color: grey;
-    background-color: white;
+    background: none;
+    padding: 0px 20px;
 }
-.searchlogo{
+
+
+.searchlogo span{
+    background: none;
+}
+
+.searchlogo {
     align-items: center;
     /* background-color: green; */
     width: 35%;
@@ -104,7 +115,7 @@ justify-content: space-between;
     background-color: white;
 }
 
-.icon{
+.icon {
     /* background-color: blueviolet; */
     width: 55%;
     height: 100%;
@@ -113,7 +124,7 @@ justify-content: space-between;
     background-color: white;
 }
 
-.iconlist{
+.iconlist {
     align-items: center;
     text-align: center;
     width: 70px;
@@ -123,13 +134,13 @@ justify-content: space-between;
     background-color: white;
 }
 
-.iconlist p{
+.iconlist p {
     font-size: 12px;
     font-weight: 400;
     background-color: white;
 }
 
-.icon1{
+.icon1 {
     width: 68%;
     display: flex;
     justify-content: space-between;
@@ -137,7 +148,7 @@ justify-content: space-between;
     /* background-color: blue; */
 }
 
-.icon2{
+.icon2 {
     /* background-color: chocolate; */
     width: 30%;
     display: flex;
@@ -145,43 +156,43 @@ justify-content: space-between;
     background-color: white;
 }
 
-.icon2 > .iconlist{
+.icon2>.iconlist {
     width: 95px;
     background-color: white;
 }
 
-.iconlist .ads{
+.iconlist .ads {
     font-size: 12px;
     font-weight: 400;
 }
 
-.iconlist span{
+.iconlist span {
     background-color: white;
 }
 
-.iconlist .ads a{
+.iconlist .ads a {
     color: #915906;
     background-color: white;
 }
 
-.iconlist a:hover{
+.iconlist a:hover {
     color: black;
     cursor: pointer;
 }
 
-.iconlist a{
+.iconlist a {
     text-decoration: none;
     color: #666666;
     background-color: white;
 }
 
-.iconlist i{
+.iconlist i {
     background-color: white;
 }
 
 /* end of navbar */
 
-.pagecontainer{
+.pagecontainer {
     background-color: #f4f2ee;
     width: 100%;
     height: 100vh;
@@ -189,7 +200,7 @@ justify-content: space-between;
     position: relative;
 }
 
-.pagecontents{
+.pagecontents {
     width: 80%;
     background: #f4f2ee;
     margin: auto;
@@ -202,7 +213,7 @@ justify-content: space-between;
     right: 0;
 }
 
-.leftside{
+.leftside {
     height: 70vh;
     width: 20%;
     background-color: red;
@@ -213,13 +224,13 @@ justify-content: space-between;
     background-color: #f4f2ee;
 }
 
-.middleside{
+.middleside {
     height: 200vh;
     width: 45%;
-    background-color: #f4f2ee ;
+    background-color: #f4f2ee;
 }
 
-.rightside{
+.rightside {
     height: 100vh;
     width: 30%;
     background-color: #f4f2ee;
@@ -228,7 +239,7 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
-.topleft{
+.topleft {
     height: 65%;
     width: 100%;
     background-color: lightgrey;
@@ -239,14 +250,15 @@ justify-content: space-between;
     position: relative;
 }
 
-.topleft1{
+.topleft1 {
     height: 15%;
     background-color: #a0b4b7;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
-    
+
 }
-.topleft2{
+
+.topleft2 {
     height: 39%;
     background-color: white;
     width: 100%;
@@ -254,9 +266,10 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-   
+
 }
-.topleft2con1 img{
+
+.topleft2con1 img {
     height: 80px;
     border-radius: 100%;
     position: absolute;
@@ -264,38 +277,38 @@ justify-content: space-between;
     top: 20px;
 }
 
-.topleft2 .topleft2con{
+.topleft2 .topleft2con {
     width: 80%;
     height: 50%;
     background-color: white;
     margin: auto;
 }
 
-.topleft2 .topleft2con1{
+.topleft2 .topleft2con1 {
     width: 100%;
     height: 50%;
     background-color: white;
     margin: auto;
 }
 
-.topleft2 .topleft2con span{
+.topleft2 .topleft2con span {
     background-color: white;
 }
 
-.topleft2 .topleft2con span p{
+.topleft2 .topleft2con span p {
     font-size: 16px;
     font-weight: 600;
     background-color: white;
 }
 
-.topleft2 .topleft2con  p{
+.topleft2 .topleft2con p {
     font-size: 12px;
     font-weight: 400;
     background-color: white;
 }
 
 
-.topleft3{
+.topleft3 {
     height: 17%;
     background-color: white;
     width: 100%;
@@ -303,45 +316,45 @@ justify-content: space-between;
 }
 
 
-.topleft3tex{
+.topleft3tex {
     width: 90%;
     background-color: white;
-    padding: 10px ;
-}
-
-.toplefticon{
     padding: 10px;
 }
 
-.toplefticon{
+.toplefticon {
+    padding: 10px;
+}
+
+.toplefticon {
     width: 10%;
     background-color: white;
 }
 
-.topleft3tex span{
+.topleft3tex span {
     background-color: white;
 }
 
-.topleft3tex span h3{
+.topleft3tex span h3 {
     font-size: 12px;
     font-weight: 600;
     color: #717171;
     background-color: white;
 }
 
-.topleft3tex span p{
+.topleft3tex span p {
     font-size: 12px;
     font-weight: 600;
     color: #000000;
     background-color: white;
 }
 
-.toplefticon i{
+.toplefticon i {
     background-color: white;
 }
 
 
-.topleft3con{
+.topleft3con {
     width: 90%;
     height: 90%;
     margin: 2px auto;
@@ -350,30 +363,31 @@ justify-content: space-between;
     justify-content: space-between;
     flex-direction: row;
 }
-.topleft4{
+
+.topleft4 {
     height: 17%;
     background-color: white;
     width: 100%;
 }
 
-.top4con{
+.top4con {
     width: 80%;
     margin: auto;
     background-color: white;
 }
 
-.top4con span{
+.top4con span {
     background-color: white;
 }
 
-.top4con span h3{
+.top4con span h3 {
     font-size: 12px;
     font-weight: 600;
     color: #999999;
     background-color: white;
 }
 
-.top4con span a{
+.top4con span a {
     font-size: 12px;
     font-weight: 600;
     color: #515151;
@@ -381,7 +395,7 @@ justify-content: space-between;
     text-decoration: none;
 }
 
-.topleft5{
+.topleft5 {
     height: 11%;
     background-color: white;
     width: 100%;
@@ -391,7 +405,7 @@ justify-content: space-between;
     justify-content: space-around;
 }
 
-.topleft5 span a{
+.topleft5 span a {
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
@@ -399,24 +413,24 @@ justify-content: space-between;
     background-color: white;
 }
 
-.topleft5 #ced{
+.topleft5 #ced {
     width: 10%;
 }
 
-#dec{
+#dec {
     width: 70%;
 }
 
-.topleft5 span{
+.topleft5 span {
     background-color: white;
-   
+
 }
 
 
 
 
 
-.downleft{
+.downleft {
     height: 30%;
     width: 100%;
     display: flex;
@@ -426,7 +440,7 @@ justify-content: space-between;
     background-color: lightgrey;
 }
 
-.downleft1{
+.downleft1 {
     height: 69%;
     width: 99.9%;
     margin: auto;
@@ -435,7 +449,9 @@ justify-content: space-between;
     border: 1px solid lightgrey;
 }
 
-.left1 , .left2 , .left3{
+.left1,
+.left2,
+.left3 {
     height: 33.33%;
     width: 100%;
     background-color: white;
@@ -443,22 +459,22 @@ justify-content: space-between;
     padding: 10px 10px;
 }
 
-.left2{
+.left2 {
     display: flex;
     justify-content: space-between;
     background: white;
 }
 
-.left2 span{
+.left2 span {
     background: none;
 }
 
-.downleft a:hover{
+.downleft a:hover {
     text-decoration: underline;
 }
 
 
-.downleft1 a{
+.downleft1 a {
     text-decoration: none;
     background: none;
     font-size: 12px;
@@ -466,7 +482,7 @@ justify-content: space-between;
     color: #0c66c2;
 }
 
-.downleft2{
+.downleft2 {
     height: 30%;
     width: 99.9%;
     margin: auto;
@@ -475,39 +491,39 @@ justify-content: space-between;
     padding: 12px;
     border-radius: 0px 0px 10px 10px;
     border: 1px solid lightgrey;
-    
+
 }
 
-.downleft2  a{
+.downleft2 a {
     text-decoration: none;
     background: none;
     font-size: 14px;
     font-weight: 600;
     color: #767676;
-    
-    
-   
+
+
+
 }
 
 
-.firstmiddle{
+.firstmiddle {
     height: 50vh;
     width: 100%;
     background-color: white;
     border: 1px solid lightgray;
 }
 
-.topright{
+.topright {
     height: 47%;
     width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   
+
 }
 
-.topright1{
+.topright1 {
     width: 90%;
     height: 10%;
     background-color: white;
@@ -516,22 +532,22 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
-.topright1 span h2{
+.topright1 span h2 {
     font-size: 16px;
     font-weight: 600;
     color: #000000;
     background-color: white;
 }
 
-.topright1 span{
+.topright1 span {
     background-color: white;
 }
 
-.topright1 div{
+.topright1 div {
     background-color: white;
 }
 
-.topright2{
+.topright2 {
     width: 90%;
     height: 70%;
     background-color: white;
@@ -541,55 +557,61 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
-.tright1 , .tright2 , .tright3{
+.tright1,
+.tright2,
+.tright3 {
     height: 32%;
     width: 100%;
     /* background-color: blue; */
 }
 
-.tright1{
-    display: flex;
-    background-color: white;
-}
-.tright2{
-    display: flex;
-    background-color: white;
-}
-.tright3{
+.tright1 {
     display: flex;
     background-color: white;
 }
 
-.trightimg img{
+.tright2 {
+    display: flex;
+    background-color: white;
+}
+
+.tright3 {
+    display: flex;
+    background-color: white;
+}
+
+.trightimg img {
     height: 50px;
     border-radius: 100%;
     background-color: white;
 }
 
-.trightimg{
+.trightimg {
     background-color: white;
     height: 100%;
 }
 
-.trightxt{
+.trightxt {
     height: 100%;
     background-color: white;
     padding: 2px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
 
-    
+
 }
-.trightxt p span{
+
+.trightxt p span {
     font-size: 14px;
     font-weight: 600;
     color: #000000;
     background-color: white;
 
 }
-.trightxt p{
+
+.trightxt p {
     font-size: 12px;
     font-weight: 400;
     color: #666666;
@@ -597,7 +619,7 @@ justify-content: space-between;
 
 }
 
-.trightxt button span{
+.trightxt button span {
     font-size: 16px;
     font-weight: 600;
     color: #666666;
@@ -605,11 +627,11 @@ justify-content: space-between;
 
 }
 
-.trightxt i{
+.trightxt i {
     background: none;
 }
 
-.trightxt button{
+.trightxt button {
     border-radius: 20px;
     padding: 5px 10px;
     border: 1px solid lightslategray;
@@ -617,22 +639,22 @@ justify-content: space-between;
     background-color: white;
 }
 
-.trightxt button:hover{
+.trightxt button:hover {
     background-color: lightgrey;
 }
 
-.topright3{
+.topright3 {
     width: 90%;
     height: 10%;
     background-color: white;
     margin: auto;
 }
 
-.topright3 span{
+.topright3 span {
     background-color: white;
 }
 
-.topright3 span h2{
+.topright3 span h2 {
     font-size: 16px;
     font-weight: 600;
     color: #666666;
@@ -640,7 +662,7 @@ justify-content: space-between;
 }
 
 
-.rightdown{
+.rightdown {
     height: 48%;
     width: 100%;
     background-color: #f4f2ee;
@@ -650,17 +672,17 @@ justify-content: space-between;
     position: relative;
 }
 
-.imgrd{
+.imgrd {
     width: 100%;
     height: 70%;
 
 }
 
-.imgrd img{
+.imgrd img {
     height: 100%;
 }
 
-.texxxtrd{
+.texxxtrd {
     width: 80%;
     height: 30%;
     background-color: #f4f2ee;
@@ -671,12 +693,12 @@ justify-content: space-between;
 }
 
 
-.texxxtrd span{
+.texxxtrd span {
     background: none;
     padding: 5px 5px;
 }
 
-.texxxtrd span a{
+.texxxtrd span a {
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
@@ -685,11 +707,11 @@ justify-content: space-between;
 }
 
 
-.rightdown img{
-width: 100%;
+.rightdown img {
+    width: 100%;
 }
 
-.middletext{
+.middletext {
     height: 15%;
     width: 90%;
     /* background-color: #666666; */
@@ -697,14 +719,14 @@ width: 100%;
     background-color: white;
 }
 
-.middletext h4{
+.middletext h4 {
     font-size: 20px;
     font-weight: 600;
     padding: 25px 0px;
     background-color: white;
 }
 
-.middlebox{
+.middlebox {
     height: 79%;
     width: 90%;
     margin: auto;
@@ -717,60 +739,61 @@ width: 100%;
 }
 
 
-.middlebox > .mbox1 > img{
+.middlebox>.mbox1>img {
     border-radius: 100%;
     height: 100px;
 }
 
-.mbox1 , .mbox2{
+.mbox1,
+.mbox2 {
     height: 48%;
     width: 100%;
     /* background-color: red; */
     background-color: white;
 }
 
-.mbox2{
+.mbox2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: white;
 }
 
-.mbox2 div{
+.mbox2 div {
     background-color: white;
 }
 
-.middlebox span h4{
+.middlebox span h4 {
     font-size: 20px;
     font-weight: 400;
     background-color: white;
 }
 
 
-.middlebox div p{
+.middlebox div p {
     font-size: 16px;
     font-weight: 400;
     background-color: white;
 }
 
-.middlebox .btn button{
+.middlebox .btn button {
     padding: 10px 30px;
     background-color: #f9c982;
     border: none;
     border-radius: 20px;
 }
 
-.btn button span a{
+.btn button span a {
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
     color: black;
     background: none;
     background-color: #f9c982;
-    
+
 }
 
-.secondmiddle{
+.secondmiddle {
     height: 20vh;
     width: 100%;
     margin-top: 20px;
@@ -778,19 +801,20 @@ width: 100%;
     border: 1px solid lightgrey;
 }
 
-.ls , .mdicon{
+.ls,
+.mdicon {
     height: 50%;
     width: 100%;
     background-color: white;
 }
 
-.secondmiddle .ls span img{
+.secondmiddle .ls span img {
     height: 80%;
     margin: 10px auto;
     background-color: white;
 }
 
-.secondmiddle .ls .ser input{
+.secondmiddle .ls .ser input {
     width: 100%;
     height: 80%;
     margin: 10px auto;
@@ -800,7 +824,8 @@ width: 100%;
     outline: none;
     background-color: white;
 }
-.secondmiddle .ls .ser input::placeholder{
+
+.secondmiddle .ls .ser input::placeholder {
     padding: 20px 20px;
     font-size: 14px;
     font-weight: 600;
@@ -809,35 +834,37 @@ width: 100%;
 
 
 
-.ls .sep{
+.ls .sep {
     width: 20px;
     height: 100%;
     background-color: white;
 }
 
-.ls .ser{
+.ls .ser {
     width: 75%;
     height: 100%;
     background-color: white;
 }
 
-.ls{
+.ls {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
 }
 
-.sep img{
+.sep img {
     background-color: white;
     border-radius: 100%;
 }
 
-.sep span{
+.sep span {
     background-color: white;
 }
 
-.mdcon1 , .mdcon2 , .mdcon3{
+.mdcon1,
+.mdcon2,
+.mdcon3 {
     width: 120px;
     height: 60%;
     margin: auto;
@@ -849,7 +876,7 @@ width: 100%;
     text-align: center;
 }
 
-.mdcon1:hover{
+.mdcon1:hover {
     background-color: lightgrey;
     transition: 0.5s;
     border-radius: 20px;
@@ -857,28 +884,29 @@ width: 100%;
     height: 65%;
 }
 
-.mdicon{
+.mdicon {
     display: flex;
     justify-content: space-around;
     background: none;
 }
 
-.mdcon1 span{
+.mdcon1 span {
     font-size: 14px;
     font-weight: 600;
     color: #767676;
     background: none;
 }
 
-.mdcon1 .mdconmg img{
+.mdcon1 .mdconmg img {
     height: 30px;
     background-color: white;
 }
-.mdconmg{
+
+.mdconmg {
     background: none;
 }
 
-.thirdmiddle{
+.thirdmiddle {
     height: 0.5vh;
     width: 100%;
     background: none;
@@ -886,7 +914,7 @@ width: 100%;
     /* background-color: red; */
 }
 
-.frthmid{
+.frthmid {
     height: 80vh;
     width: 100%;
     /* background-color: rgb(67, 0, 0); */
@@ -899,7 +927,7 @@ width: 100%;
     border-radius: 11px;
 }
 
-.frt1{
+.frt1 {
     height: 11%;
     width: 100%;
     background-color: white;
@@ -907,23 +935,26 @@ width: 100%;
     justify-content: space-between;
     border-radius: 20px 20px 0px 0px;
 }
-.frt2{
+
+.frt2 {
     height: 10%;
     width: 100%;
     background-color: white;
 }
 
-.frt2 span{
+.frt2 span {
     font-size: 14px;
     font-weight: 400;
 }
-.frt3{
+
+.frt3 {
     height: 49%;
     width: 100%;
     background-color: #fc1111;
     overflow: hidden;
 }
-.frt4{
+
+.frt4 {
     height: 12%;
     width: 100%;
     background-color: #edf3f8;
@@ -931,20 +962,21 @@ width: 100%;
     justify-content: space-around;
 }
 
-.frt4text{
+.frt4text {
     width: 70%;
     height: 98%;
     margin: auto;
     /* background-color: #f9c982; */
 }
-.frt4btn{
-    width:28%;
+
+.frt4btn {
+    width: 28%;
     height: 98%;
     margin: auto;
     /* background-color: #e88b00; */
 }
 
-.frt4btn button{
+.frt4btn button {
     padding: 8px 20px;
     border-radius: 20px;
     border: none;
@@ -953,17 +985,18 @@ width: 100%;
     margin: 15px 30px;
 }
 
-.frt4btn button a{
+.frt4btn button a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
     background: none;
 }
 
-.frt4text span{
+.frt4text span {
     font-size: 14px;
     font-weight: 400;
 }
+
 /* .frt4text p{
     font-size: 14px;
     font-weight: 400;
@@ -971,7 +1004,7 @@ width: 100%;
     color: #787b7d;
 } */
 
-.frt4text p a{
+.frt4text p a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
@@ -979,7 +1012,7 @@ width: 100%;
     color: #787b7d;
 }
 
-.frt5{
+.frt5 {
     height: 11%;
     width: 100%;
     background-color: white;
@@ -987,7 +1020,7 @@ width: 100%;
     justify-content: space-around;
 }
 
-.frt5 .smallfrt5{
+.frt5 .smallfrt5 {
     height: 35px;
     width: 100px;
     margin: auto;
@@ -996,19 +1029,19 @@ width: 100%;
     background-color: white;
 }
 
-.frt4btn button:hover{
+.frt4btn button:hover {
     background-color: lightgray;
-} 
-
-
-.smallfrt5 p{
-   text-align: center;
-   align-items: center;
-   padding-top: 5px;
-   background-color: white;
 }
 
-.smallfrt5 p:hover{
+
+.smallfrt5 p {
+    text-align: center;
+    align-items: center;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.smallfrt5 p:hover {
     background-color: lightgrey;
     transition: 0.8s;
     height: 35px;
@@ -1017,7 +1050,7 @@ width: 100%;
     border-radius: 20px;
 }
 
-.frt6{
+.frt6 {
     height: 7%;
     width: 100%;
     background-color: #aeaeae;
@@ -1027,7 +1060,7 @@ width: 100%;
     border: 1px solid lightgrey;
 }
 
-.frt6 p{
+.frt6 p {
     font-size: 12px;
     font-weight: 400;
     padding: 10px 0px;
@@ -1037,12 +1070,12 @@ width: 100%;
 
 }
 
-.frt3 img{
+.frt3 img {
     height: 100%;
     width: 100%;
 }
 
-.frt1 .logofed{
+.frt1 .logofed {
     width: 28%;
     display: flex;
     justify-content: space-around;
@@ -1050,21 +1083,21 @@ width: 100%;
     background-color: white;
 }
 
-.frt1 .feedmenu{
+.frt1 .feedmenu {
     width: 7%;
     background-color: white;
     border-radius: 0px 20px 0px 0px;
 }
 
-.frt2 span{
+.frt2 span {
     background-color: white;
 }
 
-.feedmenu i{
+.feedmenu i {
     background-color: white;
 }
 
-.logofed img{
+.logofed img {
     height: 50px;
     margin: 7px auto;
     background-color: white;
@@ -1078,39 +1111,40 @@ width: 100%;
     
 } */
 
-.sideimg{
+.sideimg {
     width: 40%;
     height: 100%;
     background-color: white;
 }
 
-.sidelogofeed{
+.sidelogofeed {
     width: 60%;
     height: 100%;
     background-color: white;
 }
 
-.sidelogofeed span{
+.sidelogofeed span {
     padding: 0px 0px;
     background-color: white;
 }
 
-.sidelogofeed #lh{
+.sidelogofeed #lh {
     font-size: 14px;
     font-weight: 600;
     color: #191919;
     background-color: white;
 }
-.sidelogofeed #fol{
-    font-size: 12px;
-    font-weight: 400;
-    color: #6b6b6b;
-    background-color: white;
-}
-.sidelogofeed #prt{
+
+.sidelogofeed #fol {
     font-size: 12px;
     font-weight: 400;
     color: #6b6b6b;
     background-color: white;
 }
 
+.sidelogofeed #prt {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6b6b6b;
+    background-color: white;
+}
