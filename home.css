@@ -190,6 +190,62 @@
     background-color: white;
 }
 
+/* for network */
+
+.iconlisth {
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: fit-content;
+    margin-top: 10px;
+    /* background-color: red; */
+    background-color: white;
+}
+
+.icon2>.iconlisth {
+    width: 95px;
+    background-color: white;
+}
+
+.iconlisth .ads {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.iconlisth span {
+    background-color: white;
+}
+
+.iconlisth .ads a {
+    color: #915906;
+    background-color: white;
+}
+
+.iconlisth a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.iconlisth a {
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    font-weight: 600;
+}
+
+.iconlisth i {
+    background-color: white;
+}
+
+
+.iconlisth p {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: white;
+}
+
+/* end of for network */
+
 /* end of navbar */
 
 .pagecontainer {

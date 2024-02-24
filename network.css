@@ -139,6 +139,61 @@
     font-weight: 400;
     background-color: white;
 }
+/* for network */
+
+.iconlistn {
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: fit-content;
+    margin-top: 10px;
+    /* background-color: red; */
+    background-color: white;
+}
+
+.icon2>.iconlistn {
+    width: 95px;
+    background-color: white;
+}
+
+.iconlistn .ads {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.iconlistn span {
+    background-color: white;
+}
+
+.iconlistn .ads a {
+    color: #915906;
+    background-color: white;
+}
+
+.iconlistn a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.iconlistn a {
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    font-weight: 600;
+}
+
+.iconlistn i {
+    background-color: white;
+}
+
+
+.iconlistn p {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: white;
+}
+
+/* end of for network */
 
 .icon1 {
     width: 68%;
@@ -205,7 +260,7 @@
 
 .leftside {
     width: 25%;
-    height: 100vh;
+    height: 75vh;
     /* background-color: blue; */
     margin: 5px;
     border-radius: 20px;
@@ -244,17 +299,114 @@
 }
 
 .ltab1 {
-    height: 60%;
+    height: 55%;
     width: 100%;
-    background-color: hotpink;
+    background-color: white;
     border-radius: 20px 20px 0px 0px;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 10px;
 }
 
-.ltab2 {
-    height: 60%;
-    width: 100%;
-    background-color: green;
+.trt{
+    height: 12%;
+    width: 100%; 
+    background: none;
+    display: flex;
+    gap: 10px;
+    padding: 5px 5px;
+    border-radius: 10px;
 }
+
+.trt:hover{
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.trt p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    background: none;
+}
+
+.trt span{
+    background: none;
+}
+
+
+.ltab1 span h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #373737;
+    background-color: white;
+}
+
+.ltab1 span{
+    background: none;
+}
+
+.ltab1 span i{
+    background: none;
+}
+
+
+/* ........ltab2...... */
+.ltab2 {
+    height: 45%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+}
+
+
+.imgrd {
+    width: 100%;
+    height: 60%;
+
+}
+
+.imgrd img {
+    height: 100%;
+    width: 100%;
+}
+
+.texxxtrd {
+    width: 90%;
+    height: 40%;
+    /* background-color: #f4f2ee; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.texxxtrd span {
+    background: none;
+    padding: 5px 5px;
+}
+
+.texxxtrd span a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #777675;
+    background: none;
+}
+
+
+.rightdown img {
+    width: 100%;
+}
+/* ............ */
+
+
 
 .tab21 {
     height: 4%;
@@ -354,6 +506,7 @@
     border-radius: 10px;
     margin: 2px 2px;
     margin-bottom: 20px;
+    border: 1px solid lightgrey;
 }
 
 .bar1 {
@@ -370,7 +523,7 @@
 }
 
 .bar2 {
-    height: 45%;
+    height: 55%;
     background-color: white;
     width: 100%;
     text-align: center;
@@ -394,7 +547,7 @@
     width: 80%;
     height: 50%;
     background-color: white;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .bar2 .barimg {
@@ -423,8 +576,86 @@
 
 
 .bar3 {
-    height: 40%;
-    background-color: red;
+    height: 30%;
+   
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
 
 }
+
+.bar3text{
+    height: 30%;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    align-items: center;
+    /* background-color: #0c66c2; */
+    background-color: white;
+}
+
+.bar3text #textbar3{
+    height: 100%;
+    width: 100%;
+    /* background-color: #915906; */
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+
+.bar3btn{
+    height: 60%;
+    width: 90%;
+    color: rgb(97, 21, 172);
+    /* border: 2px solid black; */
+    margin: auto;
+    text-align: center;
+    background-color: white;
+   
+}
+
+.bar3btn button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #0c66c2;
+    margin: 10px 0px;
+    background-color: white;
+
+}
+
+.bar3btn button:hover{
+    background-color: 
+    RGBA(112, 181, 249, 0.235);
+}
+
+.bar3btn button i{
+    background: none;
+}
+
+.bar3btn button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0c66c2;
+    background: none;
+}
+
+.bar3text #textbar3 img{
+    height: 100%;
+    background-color: white;
+}
+
+.bar3text span{
+   font-size: 12px;
+   text-decoration: none;
+   color: #878787;
+   padding: 5px;
+   background-color: white;
+}
+
