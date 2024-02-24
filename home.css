@@ -236,6 +236,7 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 
 .topleft1{
@@ -243,16 +244,111 @@ justify-content: space-between;
     background-color: #a0b4b7;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+    
 }
 .topleft2{
     height: 39%;
     background-color: white;
     width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
 }
+.topleft2con1 img{
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    right: 70px;
+    top: 20px;
+}
+
+.topleft2 .topleft2con{
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    margin: auto;
+}
+
+.topleft2 .topleft2con1{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    margin: auto;
+}
+
+.topleft2 .topleft2con span{
+    background-color: white;
+}
+
+.topleft2 .topleft2con span p{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.topleft2 .topleft2con  p{
+    font-size: 12px;
+    font-weight: 400;
+    background-color: white;
+}
+
+
 .topleft3{
     height: 17%;
     background-color: white;
     width: 100%;
+
+}
+
+
+.topleft3tex{
+    width: 90%;
+    background-color: white;
+    padding: 10px ;
+}
+
+.toplefticon{
+    padding: 10px;
+}
+
+.toplefticon{
+    width: 10%;
+    background-color: white;
+}
+
+.topleft3tex span{
+    background-color: white;
+}
+
+.topleft3tex span h3{
+    font-size: 12px;
+    font-weight: 600;
+    color: #717171;
+    background-color: white;
+}
+
+.topleft3tex span p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    background-color: white;
+}
+
+.toplefticon i{
+    background-color: white;
+}
+
+
+.topleft3con{
+    width: 90%;
+    height: 90%;
+    margin: 2px auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .topleft4{
     height: 17%;
@@ -732,8 +828,17 @@ width: 100%;
     background-color: white;
 }
 
+.sep img{
+    background-color: white;
+    border-radius: 100%;
+}
+
+.sep span{
+    background-color: white;
+}
+
 .mdcon1 , .mdcon2 , .mdcon3{
-    width: 100px;
+    width: 120px;
     height: 60%;
     margin: auto;
     background: none;
@@ -747,6 +852,9 @@ width: 100%;
 .mdcon1:hover{
     background-color: lightgrey;
     transition: 0.5s;
+    border-radius: 20px;
+    width: 125px;
+    height: 65%;
 }
 
 .mdicon{
@@ -849,6 +957,7 @@ width: 100%;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
+    background: none;
 }
 
 .frt4text span{
@@ -887,6 +996,11 @@ width: 100%;
     background-color: white;
 }
 
+.frt4btn button:hover{
+    background-color: lightgray;
+} 
+
+
 .smallfrt5 p{
    text-align: center;
    align-items: center;
@@ -894,10 +1008,14 @@ width: 100%;
    background-color: white;
 }
 
-/* .frt5 .smallfrt5:hover{
+.smallfrt5 p:hover{
     background-color: lightgrey;
-    transition: 0.5s;
-} */
+    transition: 0.8s;
+    height: 35px;
+    width: 100px;
+    transform: scale(1);
+    border-radius: 20px;
+}
 
 .frt6{
     height: 7%;
@@ -905,6 +1023,8 @@ width: 100%;
     background-color: #aeaeae;
     /* background-color: red; */
     border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
 }
 
 .frt6 p{
@@ -913,6 +1033,7 @@ width: 100%;
     padding: 10px 0px;
     background-color: #aeaeae;
     border-radius: 0px 0px 10px 10px;
+    background-color: white;
 
 }
 
