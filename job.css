@@ -53,14 +53,15 @@
 
 .input_dropdown {
     position: absolute;
-    background-color: #edf3f8;
-    width: 310px;
+    background: none;
+    width: 350px;
     display: none;
     left: 0;
     top: 30px;
-    border-radius: 5px;
-    margin-top: 10px;
-    border: 1px solid lightslategrey;
+    /* border-radius: 0px 0px 10px 10px; */
+    margin-top: 15px;
+    height: fit-content;
+    border: 1px solid #0c66c2;
 }
 
 .search:focus-within .input_dropdown {
@@ -90,6 +91,12 @@
 
 .search:focus-within {
     text-align: left;
+}
+
+.search input::placeholder{
+    text-align: left;
+    font-size: 12px;
+
 }
 
 
@@ -246,3 +253,600 @@
 }
 
 /* end of navbar */
+
+
+.pagecontainer{
+    width: 80%;
+    height: fit-content;
+    /* background-color: rebeccapurple; */
+    padding: 10px 0px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside{
+    width: 20%;
+    height: 60vh;
+    /* background-color: rgb(31, 75, 31); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.leftside1{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.leftsidebtn{
+    height: 20%;
+    width: 100%;
+}
+
+.trt{
+    height: 12%;
+    width: 100%; 
+    background: none;
+    display: flex;
+    gap: 10px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.trt:hover{
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.trt p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+    background: none;
+}
+
+.trt span{
+    background: none;
+}
+
+
+.leftside1 span h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #373737;
+    background-color: white;
+}
+
+.leftside1 span{
+    background: none;
+}
+
+.leftside1 span i{
+    background: none;
+}
+
+/* butttononpage */
+.bar3btn{
+    height: 60%;
+    width: 90%;
+    color: rgb(97, 21, 172);
+    /* border: 2px solid black; */
+    margin: auto;
+    text-align: center;
+    background: none;
+   
+}
+
+.bar3btn button{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    border: 1px solid #0c66c2;
+    margin: 10px 0px;
+    background: none;
+
+}
+
+.bar3btn button:hover{
+    background-color: 
+    RGBA(112, 181, 249, 0.235);
+}
+
+.bar3btn button i{
+    background: none;
+    font-size: 20px;
+}
+
+.bar3btn button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0c66c2;
+    background: none;
+}
+/* button */
+
+
+
+.middleside{
+    width: 50%;
+    height: 120vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.middleside1{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.middleside1A{
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.middleside1A h2{
+    font-size: 18px;
+    font-weight: 600;
+    background: none;
+}
+
+.middleside1A span{
+    background: none;
+}
+
+
+.middleside1A span button{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+.middleside1A span button:hover{
+    background-color: lightgrey;
+}
+
+.middleside1A span button i{
+    font-size: 18px;
+    background: none;
+}
+/* middlebbutton */
+.middleside1B{
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+    color: rgb(97, 21, 172);
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+  
+.middleside1B button{
+    width: fit-content;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #0c66c2;
+    margin: 3px 3px;
+    background-color: white;
+
+}
+
+.middleside1B button:hover{
+    background-color: 
+    RGBA(112, 181, 249, 0.235);
+}
+
+.middleside1B button i{
+    background: none;
+    font-size: 14px;
+}
+
+.middleside1B button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0c66c2;
+    background: none;
+}
+
+
+/* middlebbutton */
+
+
+.middleside2{
+    height: 18%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.middleside2A{
+    height: 45%;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    display: flex;
+    gap: 20px;
+}
+
+.middleside2A div{
+    background: none;
+}
+
+.middleside2A img{
+    height: 50px;
+    border-radius: 100%;
+    background: none;
+}
+
+.middleside2A h3{
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+}
+
+#Yrt span{
+    font-size: 12px;
+    background: none;
+
+}
+
+#Yrt img{
+    height: 25px;
+    background: none;
+}
+
+.middleside2A span {
+    align-items: center;
+    background: none;
+}
+
+#Yrt{
+    align-items: center;
+    background: none;
+}
+
+.middleside2B{
+    height: 45%;
+    width: 100%;
+    padding-left: 80px;
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.middleside2B button{
+    background-color: #f9c982;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+
+}
+
+.middleside2B button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    color: black;
+}
+
+.middleside2B p{
+    font-size: 12px;
+    font-weight: 400;
+    background: none;
+}
+
+.middleside3{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.middleside3A{
+    height: 30%;
+    width: 90%;
+    background: none;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.middleside3B{
+    height: 65%;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.middleside3A span h2{
+    font-size: 18px;
+    font-weight: 600;
+    background: none;
+}
+
+.middleside3A span h4{
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+}
+
+.middleside3A span{
+    background: none;
+}
+
+.middleside3A span i{
+    background: none;
+    font-size: 32px;
+}
+
+.middleside3bbox{
+    margin: 5px auto;
+    height: 85%;
+    width: 20%;
+    background: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+    background: none;
+    border: 1px solid lightgrey;
+    display: block;
+    justify-content: space-around;
+
+}
+
+.middleside3bbox p{
+    font-size: 14px;
+    font-weight: 600;
+    background: none;
+    padding: 10px;
+    text-wrap: nowrap;
+}
+
+.middleside3bbox a{
+    background: none;
+    text-decoration: none;
+    color: #191919;
+}
+
+.middleside3bbox a:hover{
+    text-decoration: underline;
+}
+
+
+.middleside3bbox img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    background: none;
+}
+
+.middleside4{
+    height: 17%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+.middleside4 div{
+    background: none;
+}
+
+.middleside4 h2{
+    background: none;
+}
+
+.middleside4 p{
+    background: none;
+}
+
+.middleside4 img{
+    height: 60px;
+    background: none;
+}
+
+.middleside4 button{
+    width: 150px;
+    height: 25px;
+    background-color: #0c67c214;
+    border-radius: 20px;
+    border: 1px solid #0c66c2;
+}
+
+.middleside4 button a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background: none;
+    color: #0c66c2;
+}
+
+
+
+
+
+.rightside{
+    width: 25%;
+    height: 60vh;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.rightside1{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.rs1{
+    height: 20%;
+    width: 100%;
+    background: none;
+    margin: auto;
+    padding: 10px;
+}
+
+.rs1 h2{
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+}
+
+.rs1 p{
+    font-size: 12px;
+    font-weight: 400;
+    background: none;
+}
+
+
+.rs2{
+    height: 30%;
+    width: 100%;
+    background: none;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    align-items: center;
+}
+
+.rs2:hover{
+    background-color: rgba(135, 206, 250, 0.25);
+    padding: 30px 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.rs2 h2{
+    font-size: 14px;
+    font-weight: 600;
+    background: none;
+
+}
+
+.rs2 span{
+    background: none;
+}
+
+
+.rs2 img{
+    height: 60px;
+    width: 100px;
+    background: none;
+}
+
+
+.rs3{
+    height: 25%;
+    width: 95%;
+    background: none;
+    margin: auto;
+   
+}
+
+.rs3 p{
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+}
+
+.rs4{
+    height: 15%;
+    width: 95%;
+    background: none;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.rs4 span{
+    background: none;
+    padding: 5px;
+    background: none;
+}
+
+.rs4 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6f6f6f;
+    background: none;
+}
+
+.rs4 a:hover{
+    color: #1b6dc5;
+    text-decoration: underline;
+}
+
+
+.rs4 i{
+    background: none;
+}
+
+
+.texxxtrd {
+    width: 80%;
+    height: 30%;
+    background-color: #f4f2ee;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 3px;
+}
+
+.texxxtrd span {
+    background: none;
+    padding: 5px 5px;
+}
+
+.texxxtrd span a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #777675;
+    background: none;
+}
