@@ -1,0 +1,679 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f2ee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    height: 60px;
+    z-index: 1;
+}
+
+.container {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchlogo img {
+    height: 50px;
+    background-color: white;
+}
+
+.searchlogo input {
+    padding: 10px 70px;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #edf3f8;
+
+}
+
+.search {
+    background-color: #edf3f8;
+    align-items: center;
+    position: relative;
+}
+
+.search i {
+    background-color: #edf3f8;
+}
+
+.input_dropdown {
+    position: absolute;
+    background: none;
+    width: 350px;
+    display: none;
+    left: 0;
+    top: 30px;
+    /* border-radius: 0px 0px 10px 10px; */
+    margin-top: 15px;
+    height: fit-content;
+    border: 1px solid #0c66c2;
+    box-shadow: 3px 5px #0c66c2;
+}
+
+.search:focus-within .input_dropdown {
+    display: initial;
+}
+
+.input_dropdown .text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
+}
+
+.input_dropdown p:hover {
+    background-color: lightgrey;
+    transition: .6s;
+}
+
+.input_dropdown #history {
+    font-size: 12px;
+}
+
+.input_dropdown p {
+    padding: 5px 0px;
+    background: none;
+}
+
+.search:focus-within {
+    text-align: left;
+}
+
+.search input::placeholder{
+    text-align: left;
+    font-size: 12px;
+
+}
+
+
+.search span {
+    font-size: 20px;
+    color: grey;
+    background: none;
+    padding: 0px 20px;
+}
+
+
+.searchlogo span {
+    background: none;
+}
+
+.searchlogo {
+    align-items: center;
+    /* background-color: green; */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    background-color: white;
+}
+
+.icon {
+    /* background-color: blueviolet; */
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.iconlist {
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: fit-content;
+    margin-top: 10px;
+    /* background-color: red; */
+    background-color: white;
+}
+
+.iconlist p {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: white;
+}
+/* for network */
+
+.iconlistms {
+    align-items: center;
+    text-align: center;
+    width: 70px;
+    height: fit-content;
+    margin-top: 10px;
+    /* background-color: red; */
+    background-color: white;
+}
+
+.icon2>.iconlistms {
+    width: 95px;
+    background-color: white;
+}
+
+.iconlistms .ads {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.iconlistms span {
+    background-color: white;
+}
+
+.iconlistms .ads a {
+    color: #915906;
+    background-color: white;
+}
+
+.iconlistms a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.iconlistms a {
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    font-weight: 600;
+}
+
+.iconlistms i {
+    background-color: white;
+}
+
+
+.iconlistms p {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: white;
+}
+
+/* end of for network */
+
+.icon1 {
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* background-color: blue; */
+}
+
+.icon2 {
+    /* background-color: chocolate; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.icon2>.iconlist {
+    width: 95px;
+    background-color: white;
+}
+
+.iconlist .ads {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.iconlist span {
+    background-color: white;
+}
+
+.iconlist .ads a {
+    color: #915906;
+    background-color: white;
+}
+
+.iconlist a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.iconlist a {
+    text-decoration: none;
+    color: #666666;
+    background-color: white;
+}
+
+.iconlist i {
+    background-color: white;
+}
+
+
+/* end of navbar */
+
+/* middlebbutton */
+.middleside1B{
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+    color: rgb(97, 21, 172);
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+  
+.middleside1B button{
+    width: fit-content;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #0c66c2;
+    margin: 3px 3px;
+    background-color: white;
+
+}
+
+.middleside1B button:hover{
+    background-color: 
+    RGBA(112, 181, 249, 0.235);
+}
+
+.middleside1B button i{
+    background: none;
+    font-size: 14px;
+}
+
+.middleside1B button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0c66c2;
+    background: none;
+}
+
+
+/* middlebbutton */
+
+.pagecontainer{
+    width: 80%;
+    height: fit-content;
+    /* background-color: rebeccapurple; */
+    padding: 10px 0px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbox{
+    width: 25%;
+    height: 50vh;
+    background: none;
+    margin-top: 20px;
+}
+
+/* rightdown */
+.imgrd {
+    width: 100%;
+    height: 65%;
+
+}
+
+.imgrd img {
+    height: 100%;
+}
+
+.texxxtrd {
+    width: 80%;
+    height: 35%;
+    background: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.texxxtrd span {
+    background: none;
+    padding: 5px 5px;
+}
+
+.texxxtrd span a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #777675;
+    background: none;
+}
+
+
+.rightdown img {
+    width: 100%;
+}
+
+.endright img{
+    height: 50px;
+}
+
+.endright{
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+/* endofleftdown */
+
+/* rightbox */
+
+.rightbox{
+    width: 70%;
+    height: 90vh;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.rightbox1{
+    width: 40%;
+    height: 100%;
+    background: none;
+    border: 1px solid lightgrey;
+}
+.rightbox2{
+    width: 60%;
+    height: 100%;
+    background: none;
+    border: 1px solid lightgrey;
+}
+
+.msgtitle{
+    width: 100%;
+    margin: auto;
+    height: 8%;
+    border: 1px solid lightgrey;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.msgtitle span h1{
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+}
+
+.msgtitle span{
+    background: none;
+}
+
+.msgtitle #icn{
+    color: #666666;
+}
+
+.msgiconbox span{
+    background: none;
+}
+
+.msgiconbox {
+    background: none;
+    display: flex;
+    gap: 10px;
+    position: relative;
+
+}
+
+.msgiconbox  div{
+    background: none;
+}
+
+.msgiconbox  div button{
+    background: none;
+    border: none;
+}
+
+.msgiconbox  div button a{
+    background: none;
+}
+
+.drpdownmsgcon{
+    height: fit-content;
+    width: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0px 10px 0px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 1px #0c66c2;
+    z-index: 1000;
+}
+
+.drpdownmsgcon span{
+    background: none;
+    height: 33%;
+    width: 100%;
+}
+
+.drpdownmsgcon span p{
+    background: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.drpdownmsgcon p:hover{
+    background-color: lightgrey;
+    transition: 0.5s;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.msgtitle:focus-within .drpdownmsgcon{
+    display: initial;
+    transition: 0.5s;
+}
+
+.searchbox{
+    /* background-color: #0c66c2; */
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+    background: none;
+    position: relative;
+    
+}
+
+.searchcon input{
+    border: none;
+    background: none;
+}
+.searchcon input::placeholder{
+    font-size: 16px;
+}
+
+.searchcon input:focus-within{
+    height: 35px;
+    outline: none;
+}
+
+.searchcon{
+    /* border: 1px solid black; */
+    background-color: #edf3f8;
+    border-radius: 5px;
+}
+
+.searchcon{
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchcon span{
+    background: none;
+    color: #5e6163;
+    font-size: 24px;
+}
+
+.seardrpdpwn{
+    height: max-content;
+    width: max-content ;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px 0px 10px 0px;
+    position: absolute;
+    left: 150px;
+    margin-top: 10px;
+    display: none;
+    text-align: left;
+    padding: 0px 0px;
+}
+
+.seardrpdpwn span p{
+    background: none;
+    padding: 10px 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.seardrpdpwn span p:hover{
+    background-color: lightgrey;
+}
+
+.searchcon div{
+    background: none;
+}
+.seardrpdpwn span{
+    background: none;
+}
+
+.searchcon div button{
+    background: none;
+    border: none;
+}
+
+.searchcon div button a{
+    background: none;
+}
+
+.searchbox:focus-within .seardrpdpwn{
+    display: initial;
+}
+
+.twobtn{
+    height: 8vh;
+    width: 100%;
+    background: none;
+    display: flex;
+}
+
+.twobtn button{
+    width: 50%;
+    height: 100%;
+    border: none;
+    background: none;
+}
+
+.twobtn button a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    background: none;
+}
+
+.twobtn #btn1 a{
+    color: #02754f;
+}
+
+.twobtn #btn1{
+    border-bottom: 2px solid #02754f;
+}
+
+.nomsg{
+    height: 40vh;
+    width: 100%;
+    background: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.nomsg img{
+    height: 60%;
+   
+}
+
+.nomsg span{
+    background: none;
+}
+
+.nomsg span button{
+    background: none;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+}
+
+.nomsg span button:hover{
+    background-color: lightgray;
+}
+
+.nomsg span button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    background: none;
+}
+
+.boxtext{
+    background: none;
+}
+
+.boxtext h1{
+    background: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.boxtext p{
+    background: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.twobtn button:hover{
+    background-color: lightgrey;
+    transition: 0.5s;
+}
+
+
+
+
+

@@ -860,3 +860,17 @@
     color: #777675;
     background: none;
 }
+
+.endright img{
+    height: 50px;
+}
+
+.endright{
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
