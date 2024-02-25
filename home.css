@@ -53,14 +53,16 @@
 
 .input_dropdown {
     position: absolute;
-    background-color: #edf3f8;
-    width: 310px;
+    background: none;
+    width: 350px;
     display: none;
     left: 0;
     top: 30px;
-    border-radius: 5px;
-    margin-top: 10px;
-    border: 1px solid lightslategrey;
+    /* border-radius: 0px 0px 10px 10px; */
+    margin-top: 15px;
+    height: fit-content;
+    border: 1px solid #0c66c2;
+    box-shadow: 3px 5px #0c66c2;
 }
 
 .search:focus-within .input_dropdown {
@@ -71,7 +73,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #000000;
-   
+
 }
 
 .input_dropdown p:hover {
@@ -92,6 +94,12 @@
     text-align: left;
 }
 
+.search input::placeholder{
+    text-align: left;
+    font-size: 12px;
+
+}
+
 
 .search span {
     font-size: 20px;
@@ -101,7 +109,7 @@
 }
 
 
-.searchlogo span{
+.searchlogo span {
     background: none;
 }
 
@@ -139,57 +147,6 @@
     font-weight: 400;
     background-color: white;
 }
-
-.icon1 {
-    width: 68%;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    /* background-color: blue; */
-}
-
-.icon2 {
-    /* background-color: chocolate; */
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-}
-
-.icon2>.iconlist {
-    width: 95px;
-    background-color: white;
-}
-
-.iconlist .ads {
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.iconlist span {
-    background-color: white;
-}
-
-.iconlist .ads a {
-    color: #915906;
-    background-color: white;
-}
-
-.iconlist a:hover {
-    color: black;
-    cursor: pointer;
-}
-
-.iconlist a {
-    text-decoration: none;
-    color: #666666;
-    background-color: white;
-}
-
-.iconlist i {
-    background-color: white;
-}
-
 /* for network */
 
 .iconlisth {
@@ -246,7 +203,104 @@
 
 /* end of for network */
 
+.icon1 {
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* background-color: blue; */
+}
+
+.icon2 {
+    /* background-color: chocolate; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.icon2>.iconlist {
+    width: 95px;
+    background-color: white;
+}
+
+.iconlist .ads {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.iconlist span {
+    background-color: white;
+}
+
+.iconlist .ads a {
+    color: #915906;
+    background-color: white;
+}
+
+.iconlist a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.iconlist a {
+    text-decoration: none;
+    color: #666666;
+    background-color: white;
+}
+
+.iconlist i {
+    background-color: white;
+}
+
+
 /* end of navbar */
+
+/* middlebbutton */
+.middleside1B{
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+    color: rgb(97, 21, 172);
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+  
+.middleside1B button{
+    width: fit-content;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #0c66c2;
+    margin: 3px 3px;
+    background-color: white;
+
+}
+
+.middleside1B button:hover{
+    background-color: 
+    RGBA(112, 181, 249, 0.235);
+}
+
+.middleside1B button i{
+    background: none;
+    font-size: 14px;
+}
+
+.middleside1B button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0c66c2;
+    background: none;
+}
+
+
+/* middlebbutton */
 
 .pagecontainer {
     background-color: #f4f2ee;
