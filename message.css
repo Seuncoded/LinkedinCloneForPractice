@@ -308,7 +308,7 @@
     /* background-color: rebeccapurple; */
     padding: 10px 0px;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -381,7 +381,7 @@
     width: 70%;
     height: 90vh;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -399,6 +399,7 @@
     height: 100%;
     background: none;
     border: 1px solid lightgrey;
+    overflow: auto;
 }
 
 .msgtitle{
@@ -454,6 +455,8 @@
     background: none;
 }
 
+/* dropdownmenu */
+
 .drpdownmsgcon{
     height: fit-content;
     width: max-content;
@@ -492,6 +495,8 @@
     display: initial;
     transition: 0.5s;
 }
+
+/* end of dropdown */
 
 .searchbox{
     /* background-color: #0c66c2; */
@@ -673,7 +678,77 @@
     transition: 0.5s;
 }
 
+.textmsg{
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
+.textmsg .textmsgpic{
+    width: fit-content;
+    height: fit-content;
+    background: none;
+}
+
+.textmsg .messag{
+    width: 85%;
+    height: fit-content;
+    background: none;
+}
+
+.messag span{
+    background: none;
+}
+
+.messag a{
+    background: none;
+    text-decoration: none;
+    color: black;
+    font: 14px;
+    font-weight: 600;
+}
+
+.messag a span{
+   font-size: 8px;
+   color: #787878;
+   font-weight: 400;
+}
+
+.textmsgpic img{
+    width: fit-content;
+    height: 50px;
+    background: none;
+}
+
+.messag span{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.textmsg a p{
+    background: none;
+}
+
+.messag a:hover{
+    color: #0c66c2;
+    text-decoration: underline;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.messag .maintext:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.messag .maintext{
+    background: none;
+}
 
 
 
