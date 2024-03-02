@@ -301,3 +301,691 @@
 
 
 /* middlebbutton */
+
+/* leftdropdown */
+
+#leftdrpmenu {
+    position: relative;
+}
+.leftdrop{
+    height: 95vh;
+    width: 400px;
+   margin-top: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    position: absolute;
+    transform: translateX(2000px);
+    display: none;
+    transition: 2s ease-in-out;
+    
+}
+
+#leftdrpmenu:focus-within .leftdrop{
+    display: initial;
+    transform: translateX(-115px);
+}
+
+
+/* endofleftdropdown */
+
+.pagecontainer{
+    width: 80%;
+    height: fit-content;
+    background: none;
+    padding: 10px 0px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightbox{
+    height: fit-content;
+    width: 70%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 0px 0px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.rightA{
+    height: 70vh;
+    width: 100%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.rightA1{
+    height: 30%;
+    width: 100%;
+    background-color: #bfd3d6;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.rightA2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.rightA21{
+    width: 100%;
+    height: 70%;
+    background: none;
+    display: flex;
+}
+.rightA22{
+    width: 100%;
+    height: 30%;
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightA22boxa{
+    height: 70%;
+    width: 45%;
+    background-color: #dde7f1;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.rightA22boxb{
+    height: 70%;
+    width: 45%;
+    background: none;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.rightA22boxa h2{
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+}
+
+.rightA22boxa p{
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+}
+
+
+.rightA22boxa a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0c66c2;
+    background: none;
+
+}
+
+.rightA22boxb h2{
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+}
+
+.rightA22boxb p{
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+}
+
+
+.rightA22boxb a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0c66c2;
+    background: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+.rightA img{
+    height: 150px;
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.rightA1 #senmg{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 50px;
+
+}
+
+.a21a{
+    width: 50%;
+    height: 70%;
+    background: none;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 25px 20px;
+}
+
+
+.a21b{
+    width: 50%;
+    height: 70%;
+    background: none;
+    margin-top: 75px;
+}
+
+.A21Ba img{
+    height: 50px;
+}
+
+.A21Ba{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    padding: 0px 30px;
+}
+
+.A21Ba span{
+    background: none;
+}
+
+.A21Ba span a{
+    text-decoration: none;
+    background: none;
+    color: #000000;
+    font-family: 600;
+}
+
+
+
+
+
+
+.rightbox1 span button{
+ width: 120px;
+ height: 30px;
+ border: 1px solid #0c66c2;
+ color: #0c66c2;
+ border-radius: 20px;
+ background: none;
+ 
+}
+
+.rightbox1 span button a{
+    text-decoration: none;
+    color: #0c66c2;;
+    font-weight: 600;
+    background: none;
+}
+
+.rightbox1 span button a i{
+    background: none;
+}
+
+
+.rightbox1{
+    display: flex;
+    gap: 20px;
+    background: none;
+}
+.rightbox2 p{
+    font-size: 16px;
+    font-weight: 400;
+    background: none;
+}
+
+.rightbox2{
+    background: none;
+}
+
+.rightbox3{
+    display: flex;
+    gap: 10px;
+    background: none;
+}
+
+
+.rightbox3 span{
+    background: none;
+
+}
+
+.rightbox3 span a{
+    text-decoration: none;
+    color: #0c66c2;
+    font-weight: 600;
+    font-size: 14px;
+    background: none;
+    
+}
+
+
+.rightbox3 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    background: none;
+}
+
+.rightbox4{
+    display: flex;
+   justify-content: space-around;
+   background: none;
+}
+
+.rightbox4 span{
+    background: none;
+}
+
+.rightbox4 #box4a button{
+    width: 80px;
+    background-color: #0c66c2;
+    border: 1px solid #0c66c2;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.rightbox4 #box4a button a{
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+
+.rightbox4 #box4b button{
+    width: 160px;
+    background: none;
+    border: 1px solid #0c66c2;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.rightbox4 #box4b button a{
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0c66c2;
+    text-decoration: none;
+}
+
+
+.rightbox4 #box4c button{
+    width: 80px;
+    background: none;
+    border: 1px solid #666666;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.rightbox4 #box4c button a{
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    text-decoration: none;
+}
+
+.rightbox1 h1{
+    background: none;
+}
+
+.rightbox1 span{
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leftbox{
+    height: fit-content;
+    width: 25%;
+    background: none;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.left1{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.left1A{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    background: none;
+}
+.left1B{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    background: none;
+}
+
+.left1A h1{
+    font-size: 22px;
+    font-weight: 600;
+    background: none;
+}
+
+.left1A p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    background: none;
+}
+
+.left1B h1{
+    font-size: 22px;
+    font-weight: 600;
+    background: none;
+}
+
+.left1B p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+    background: none;
+}
+
+.left1A span{
+    background: none;
+}
+
+.left1B span{
+    background: none;
+}
+
+.Left1Acon{
+    background: none;
+}
+
+.Left1Acon i{
+    background: none;
+}
+
+
+.left2 {
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.left2A{
+    width: 100%;
+    height: 65%;
+    /* border-bottom: 1px solid lightgrey; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: none;
+}
+
+
+.left2A p{
+    font-size: 13px;
+    font-family: 600;
+    color: #999999;
+    background: none;
+}
+.left2B{
+    width: 100%;
+    height: 35%;
+    /* border-bottom: 1px solid lightgrey; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: none;
+}
+
+.left2A span img{
+    height: 60px;
+    background: none;
+}
+
+.left2B p{
+    font-size: 13px;
+    font-family: 600;
+    background: none;
+}
+
+.left2B span button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #0c66c2;
+    background: none;
+}
+
+.left2B span button a{
+    text-decoration: none;
+    color: #0c66c2;
+    font-size: 16px;
+    font-family: 900;
+    background: none;
+}
+
+
+.left2A span #lmga{
+    border-radius: 100px;
+    background: none;
+}
+
+.left2A span #lmgb{
+    border-radius: 20px;
+    background: none;
+}
+
+.left2B span{
+    background: none;
+}
+.left2A span{
+    background: none;
+}
+
+.left2B span button{
+    background: none;
+}
+
+.left2B span button a{
+    background: none;
+}
+
+
+
+.left3{
+    height: 72vh;
+    width: 100% ;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.left3top{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background: none;
+}
+.left3top p{
+    font-size: 16px;
+    font-family: 600;
+    background: none;
+}
+
+
+.left3content{
+    background: none;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border-bottom: 1px solid lightgrey; */
+    /* border-radius: 10px; */
+}
+
+.contentA{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: none;
+
+}
+.contentB{
+    height: 30%;
+    width: 100%;
+   text-align: center;
+   background: none;
+}
+
+.tentimg img{
+    height: 70px;
+    border-radius: 100px;
+    background: none;
+}
+
+.contentB button{
+    width: 120px;
+    height: 35px;
+    border: 1px soild #6f6f6f;
+    border-radius: 20px;
+    background: none;
+    color: #6f6f6f;
+}
+
+.contentB button span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6f6f6f;
+    background: none;
+}
+
+.tenttext h1{
+    font-size: 20px;
+    font-weight: bolder;
+    background: none;
+}
+
+.tenttext{
+    background: none;
+}
+
+.tenttext p{
+    background: none;
+}
+
+.tentimg{
+    background: none;
+}
+
+.contentB a{
+    background: none;
+}
+
+.contentB button i{
+    background: none;
+}
+
+.contentB button:hover{
+    background-color: lightgrey;
+}
+
+.left4{
+    height: fit-content;
+    width: 100% ;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.left4 h4{
+    font-size: 12px;
+    background: none;
+    color: #717171;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
+    height: 1px;
+}
+
+.left5{
+    height: 100vh;
+    width: 100% ;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
