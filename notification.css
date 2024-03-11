@@ -701,3 +701,8 @@
     padding: 12px 0px;
     background: none;
 }
+
+.lst4 p a{
+    text-decoration: none;
+    color: black;
+}
